@@ -1,53 +1,48 @@
-html {
-    height: 100%;
-    width: 100%;
-    max-width: 800px;
-    background-color: darkslategrey;
-   margin: 0 auto;
-  
-  }
-  .page {
+html{
+  border: 2px red solid;
+  background-color: black;
+}
+
+.page {
+  border: 2px yellow solid;
+  width: 50%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+}
+  .post-header {
+  border: 2px green solid;
+  height: 75px;
   display: flex;
-    flex-direction: column;
-  }
-  
-  h1 {
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.reactions {
+  border: 2px red solid;
+}
+.bottom {
+  border: 2px blue solid;
+  margin: 10px;
+}
+
+i {
+  font-size: 1.5em;
+}
+
+#post-info {
   display: flex;
-    justify-content: center;
-  }
-  
-  p {
-    width: 100%;
-  }
-  
-  .row {
-    display: flex;
-    justify-content: space-between;
-    margin: 5px;
-  
-    
-  }
-  
-  img {
-    width: 100%;
-    border: 2px solid black;
-  }
-  
-  .container {
-    margin: 0 auto;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
-    
-  }
-  .photo {
-    border: 2px solid black;
-    background-color: white;
-    margin-top: 50px;
-  }
-  h2 {
-    font-size: 16px;
-    font-weight: -10;
-  }
+  align-items: center;
+  border: 2px purple solid;
+}
+#post-location {
+  display: flex;
+  flex-direction: column;
+  margin-left: .5em;
+  border: 2px red solid;
+  ;
+}
+img {
+  width: 100%;
+  border: 2px red solid;
+}
