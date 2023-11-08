@@ -1,17 +1,17 @@
-html{
-  border: 2px red solid;
+html {
+  /* border: 2px red solid; */
   background-color: black;
 }
 
 .page {
-  border: 2px yellow solid;
+  /* border: 2px yellow solid; */
   width: 50%;
   max-width: 800px;
   margin: 0 auto;
   background-color: white;
 }
-  .post-header {
-  border: 2px green solid;
+.post-header {
+  /* border: 2px green solid; */
   height: 75px;
   display: flex;
   justify-content: space-between;
@@ -19,30 +19,43 @@ html{
   padding: 5px;
 }
 .reactions {
-  border: 2px red solid;
+  /* border: 2px red solid; */
+  display: flex;
 }
 .bottom {
-  border: 2px blue solid;
+  /* border: 2px blue solid; */
   margin: 10px;
 }
 
 i {
   font-size: 1.5em;
 }
-
-#post-info {
+.reactions i {
+  margin-right: 5px;
+}
+.post-info {
   display: flex;
   align-items: center;
-  border: 2px purple solid;
+  /* border: 2px purple solid; */
 }
-#post-location {
-  display: flex;
-  flex-direction: column;
-  margin-left: .5em;
-  border: 2px red solid;
-  ;
+.post-location {
+  margin-left: 0.5em;
+  /* border: 2px red solid; */
+}
+.location-name {
+  margin-bottom: 0px;
+}
+.location-city-state {
+  margin-top: 0px;
 }
 img {
   width: 100%;
-  border: 2px red solid;
+  /* border: 2px red solid; */
 }
+.bookmark {
+  margin-left: auto;
+}
+.bookmark i {
+  margin-right: 0px;
+}
+
